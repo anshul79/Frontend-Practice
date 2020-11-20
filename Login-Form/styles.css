@@ -1,0 +1,39 @@
+body {
+  font-family: sans-serif;
+}
+
+#app {
+  height: 1000px;
+  line-height: 50px;
+}
+
+.flex-div {
+  display: flex;
+  /* padding: 2vh; */
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: rgb(240, 240, 240);
+}
+
+#main-div {
+  /* height: 40vh; */
+}
+
+#errors-div {
+  /* height: 50vh; */
+}
+
+.input-field {
+  width: 100%;
+  /* line-height: 5vh; */
+}
+
+#submit-btn {
+  background-color: rgb(109, 201, 109);
+  color: white;
+  border-radius: 3px;
+}
+
+.error {
+  color: red;
+}

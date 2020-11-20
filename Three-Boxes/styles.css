@@ -1,0 +1,23 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  #parent {
+    box-sizing: border-box;
+  }
+  #parent .box {
+    height: 200px;
+    width: 33.3%;
+    float: left;
+  }
+  
+  .blue {
+    background-color: blue;
+  }
+  .red {
+    background-color: red;
+  }
+  .yellow {
+    background-color: yellow;
+  }
+  

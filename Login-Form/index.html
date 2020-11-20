@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div id="app">
+      <span id="main-div" class="flex-div">
+        Username
+        <input id="username" class="input-field" type="input" name="username" required></input>
+        Password
+        <input id="password" class="input-field" type="input" name="password" required></input>
+        <button id="submit-btn" class="input-field" type="submit" name="submit-btn">Submit</button>
+      </span>
+      
+      <span id="errors-div" class="flex-div" >
+        <div><b>Password must contain the following:</b></div>
+        <div id="lowercase-error" class="error" style="display:block;"><b>x</b>&nbsp;&nbsp; A <b>lowercase</b> letter</div>
+        <div id="uppercase-error" class="error" style="display:block;"><b>x</b>&nbsp;&nbsp;  A <b>capital (uppercase)</b> letter</div>
+        <div id="number-error" class="error" style="display:block;"><b>x</b>&nbsp;&nbsp;  A <b>number</b></div>
+        <div id="length-error" class="error" style="display:block;"><b>x</b>&nbsp;&nbsp;  Minimum <b>8 characters</b></div>
+      </span>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
